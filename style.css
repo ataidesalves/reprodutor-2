@@ -1,7 +1,7 @@
 /* Reseta o estilo padrão */
 * {
-    margin: 5;
-    padding: 5;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -18,10 +18,10 @@
 
 /* Estilo do container do player */
 .player-container {
-    position: relative;
-    top: 20%;
+    position: absolute;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -50%);
     text-align: center;
     color: white;
     background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
